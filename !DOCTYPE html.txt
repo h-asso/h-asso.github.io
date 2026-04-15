@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>OREA</title>
+
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f5f5f5;
+text-align: center;
+}
+
+/* HEADER */
+header {
+background: white;
+padding: 20px;
+}
+
+.logo {
+width: 70px;
+}
+
+/* HERO */
+.hero {
+padding: 40px 20px;
+}
+
+.hero h1 {
+font-size: 26px;
+margin-bottom: 10px;
+}
+
+.hero p {
+font-size: 18px;
+color: #555;
+}
+
+/* BOUTONS */
+.buttons {
+margin-top: 20px;
+}
+
+.buttons a {
+display: inline-block;
+margin: 10px;
+padding: 12px 25px;
+background: #b54b42;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.buttons a:hover {
+background: #8e3a34;
+}
+
+/* SECTION */
+.section {
+padding: 40px 20px;
+}
+
+.section h2 {
+font-size: 28px;
+}
+
+.barre {
+width: 60px;
+height: 4px;
+background: #b54b42;
+margin: 10px auto 20px;
+}
+
+.text {
+max-width: 700px;
+margin: auto;
+font-size: 17px;
+line-height: 1.6;
+}
+
+/* IMAGE */
+.image {
+width: 90%;
+max-width: 800px;
+margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+background: white;
+padding: 15px;
+margin-top: 30px;
+font-size: 14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" class="logo">
+</header>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Main dans la main pour un meilleur lendemain</h1>
+<p>Ensemble nous faisons la différence</p>
+
+<div class="buttons">
+<a href="#">ACTION</a>
+<a href="#">DONATION</a>
+</div>
+</div>
+
+<!-- QUI NOUS SOMMES -->
+<div class="section">
+<h2>Qui nous sommes</h2>
+<div class="barre"></div>
+
+<div class="text">
+Nous sommes un groupe d’adolescents unis par l’envie d’agir face aux inégalités.
+Nous avons décidé d’aider les personnes dans le besoin avec nos moyens, notre énergie et, bien sûr, votre soutien.
+<br><br>
+Solidaires, motivés et déterminés, nous croyons que chaque petit geste peut faire une grande différence.
+</div>
+</div>
+
+<img src="mains.jpg" class="image">
+
+<!-- ACTION -->
+<div class="section">
+<h2>Aide aux personnes dans le besoin</h2>
+<div class="barre"></div>
+
+<div class="text">
+OREA aide et accompagne les personnes en difficulté en organisant des maraudes,
+en distribuant des produits d'hygiène et en offrant un soutien scolaire aux enfants.
+</div>
+</div>
+
+<!-- SENSIBILISATION -->
+<div class="section">
+<h2>Sensibilisation</h2>
+<div class="barre"></div>
+
+<div class="text">
+OREA mène des actions concrètes pour agir et créer du lien avec celles et ceux qui en ont besoin.
+Nous informons et mobilisons notre entourage sur la réalité de la précarité afin d'encourager la solidarité.
+</div>
+</div>
+
+<footer>
+© 2026 OREA - Tous droits réservés
+</footer>
+
+</body>
+</html>
